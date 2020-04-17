@@ -12,7 +12,7 @@
 
 既然苹果实现了暗黑模式，那么安卓肯定不能落下啊，所以在安卓10（Q API级别29）中支持了暗黑模式，不过官方的叫法为Dark theme，怎么翻译都行,先来看一下官方对暗黑模式的定义吧：
 
-<img src="/screenshots/暗黑模式官网描述.png" alt="image-20200414133929841" style="zoom:50%;" />
+<img src="screenshots/暗黑模式官网描述.png" alt="image-20200414133929841" style="zoom:50%;" />
 
 这里就不一行行翻译了，主要来说一下暗黑模式的好处吧：
 
@@ -46,7 +46,7 @@
 
 大家日常开发中肯定会有这种需求，官方定义的主题不完全能满足我们的需求，这时候就需要来自定义主题了，谷歌也为我们想到了这一点。普通模式下咱们不需要动，该怎么写怎么写，然后在res下再新建一个values-night的文件夹，然后把你自定义的放进去，name起成和styles.xml中对应的主题名称就可以了。来看一下吧：
 
-<img src="/screenshots/暗黑模式样式设置.png" alt="image-20200414140316881" style="zoom:50%;" />
+<img src="screenshots/暗黑模式样式设置.png" alt="image-20200414140316881" style="zoom:50%;" />
 
 这样设置完就OK了。
 
@@ -71,7 +71,7 @@
 
 “什么？你想看一下效果？那好吧，如你所愿，这真的是你，要是别人我都不让他看。。。。”
 
-![暗黑模式](/screenshots/暗黑模式.gif)
+![暗黑模式](screenshots/暗黑模式.gif)
 
 怎么样，效果还可以吧？
 
@@ -123,7 +123,7 @@ AppCompatDelegate.setDefaultNightMode()
 ```
 
 这个代码应该不需要解释了，上面解释的已经够多了。来看一下实现效果吧：
-![暗黑模式](/screenshots/主题切换.gif)
+![暗黑模式](screenshots/主题切换.gif)
 
 ### 配置变更
 
